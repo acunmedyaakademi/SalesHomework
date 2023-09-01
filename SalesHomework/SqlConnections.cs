@@ -8,9 +8,9 @@ using System.Data;
 
 namespace SalesHomework
 {
-    internal class SqlConnections
+    public class SqlConnections
     {
-        IDictionary<string, string> GetProduct ()
+        public static IDictionary<string, string> GetProduct ()
         {
             Dictionary<string,string> productList = new Dictionary<string,string> ();
             SqlConnection sqlConnection;

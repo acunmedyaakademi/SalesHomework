@@ -12,9 +12,9 @@ namespace SalesHomework
         static void Main(string[] args)
         {
             Console.WriteLine("******** EN UYGUN SATIŞ ********\n");
-            Dictionary<string, string> product = new Dictionary<string, string> { };
-            product = SalesHomework.SqlConnections.GetProduct();
-
+            
+            var product = SqlConnections.GetProduct();
+            Console.WriteLine(product);
 
         }
     }
