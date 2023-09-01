@@ -15,6 +15,7 @@ namespace SalesHomework
             Dictionary<string, string> product = new Dictionary<string, string> { };
             product = SalesHomework.SqlConnections.GetProduct();
 
+
         }
     }
 }
